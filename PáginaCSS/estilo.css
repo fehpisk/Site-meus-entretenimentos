@@ -1,0 +1,33 @@
+.container {
+width: 100%;
+display: flex;
+flex-direct}
+
+.esquerda, .centro, .direita{
+align-items: center;
+margin: 1%;
+}
+.esquerda{
+flex-grow: 1;
+}
+
+.galeria-imagens {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Centraliza as imagens horizontalmente na tela */
+  gap: 40px;               /* Aumenta o espaçamento entre as imagens (ajuste como preferir) */
+  margin-top: 20px;        /* Opcional: dá uma distância do título "Filmes e Séries" */
+}
+
+/* Configuração das imagens */
+.galeria-imagens img {
+  height: 200px;
+  width: auto;
+  object-fit: cover;
+}
+
+.item-galeria {
+  display: flex;
+  flex-direction: column;  /* Empilha a imagem e o texto verticalmente */
+  align-items: center;     /* Centraliza o texto exatamente embaixo da imagem */
+  text-align: center;  }
